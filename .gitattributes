@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.png binary
+*.gz binary
+# Preserve downloadable CAD/mesh bytes exactly; no line-ending normalization.
+*.step binary
+*.stl binary
+*.dxf binary
