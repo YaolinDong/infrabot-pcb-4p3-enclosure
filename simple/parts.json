@@ -1,0 +1,29 @@
+{
+  "revision": "R8_S16_SIMPLE_S8",
+  "units": "mm",
+  "print_parts": [
+    {
+      "name": "lower shell",
+      "step": "STEP/01_lower_shell.step",
+      "stl": "STL/01_lower_shell.stl",
+      "quantity": 1
+    },
+    {
+      "name": "upper shell",
+      "step": "STEP/02_upper_shell.step",
+      "stl": "STL/02_upper_shell.stl",
+      "quantity": 1
+    }
+  ],
+  "required_hardware": {
+    "M3x12_button_head_screws": 4,
+    "M3x10_button_head_screws": 7,
+    "M3_hex_nuts": 3,
+    "M3_16mm_female_female_standoffs": 4,
+    "optional_core_region_M3x6_screws_and_nuts": 4
+  },
+  "no_tapping_required": true,
+  "no_added_keycaps_or_lightpipes": true,
+  "reference_assemblies_are_not_print_parts": true,
+  "pairing": "S8 upper reuses the unchanged S6/S7 lower shell and hardware; CASE9 front, vertical sides and top rim are now continuously rounded."
+}

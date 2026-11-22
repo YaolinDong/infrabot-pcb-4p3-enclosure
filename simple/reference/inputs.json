@@ -1,0 +1,109 @@
+{
+  "purpose": "Exact local models required by CAD generation and frozen-baseline checks; restore with tools/restore_references.py",
+  "inputs": [
+    {
+      "compressed": "reference/LED1_S1_before_patch.step.gz",
+      "output": "reference/LED1_S1_before_patch.step",
+      "sha256": "e49d152a2a03789f466cf9cffb436440c0a7f21f13428f6d397a8266a0c62c2d",
+      "compressed_sha256": "ff826e20ae5143346c8bcdcef942041efbe89fe81535efa6c179df79dffb747a",
+      "bytes": 28385,
+      "compressed_bytes": 5567
+    },
+    {
+      "compressed": "reference/LED2_REFERENCE.step.gz",
+      "output": "reference/LED2_REFERENCE.step",
+      "sha256": "46edee2aa790dfde90c98b1c481701c09683fccb0df2d0dbbe00e25ba9958271",
+      "compressed_sha256": "eb1fb4fadbd0a68d44e29168505442af0f7a17ffbd8f43bb03c3e92a93679831",
+      "bytes": 163171,
+      "compressed_bytes": 25114
+    },
+    {
+      "compressed": "reference/lower_S3_before_flush.step.gz",
+      "output": "reference/lower_S3_before_flush.step",
+      "sha256": "6f0d6739411405fd3e5ed2459597e9759ca9188fb1b3012899f089fca242f4e8",
+      "compressed_sha256": "91849470208fbd92f477c813b4773b71c6b297ec325ddeebfd9ce1fb44d964f4",
+      "bytes": 647490,
+      "compressed_bytes": 102838
+    },
+    {
+      "compressed": "reference/lower_S4_before_rounding.step.gz",
+      "output": "reference/lower_S4_before_rounding.step",
+      "sha256": "c847b0deb3f5a9616ec8ac0440a0b63669984abdba8e9f762b4fa8128fed0098",
+      "compressed_sha256": "ff676d9bfc75b91ac69dd295e9299f330f1135b2deef11bccdb92138d3af6f4b",
+      "bytes": 639413,
+      "compressed_bytes": 101721
+    },
+    {
+      "compressed": "reference/lower_S5_before_fasteners.step.gz",
+      "output": "reference/lower_S5_before_fasteners.step",
+      "sha256": "f014afa5cc5b6d1388b6b53a842243af377c98276026339deaf570e36c4d7913",
+      "compressed_sha256": "70bd715bc0895433607a756bd8cbac2daafc21e9bf3f4f23a353ac377975deb2",
+      "bytes": 663689,
+      "compressed_bytes": 105719
+    },
+    {
+      "compressed": "reference/lower_S6_before_open_pocket.step.gz",
+      "output": "reference/lower_S6_before_open_pocket.step",
+      "sha256": "1da3cacd6c9c800adfe411b497edf8083e58cdb2337b1ad4f117bfa63e77ce33",
+      "compressed_sha256": "7963122c001982f858a1b847c03e554c3c4ff9d5623ebf013f010f6782017ffa",
+      "bytes": 581373,
+      "compressed_bytes": 93612
+    },
+    {
+      "compressed": "reference/lower_S7_before_full_rim.step.gz",
+      "output": "reference/lower_S7_before_full_rim.step",
+      "sha256": "29f55a3c49319fd88c714532744fc1d99e8c24cccfce118d29f1a6828247d757",
+      "compressed_sha256": "1aba7f1e98f0e4ef48a253f2d70cea188b2895626b6ebe495457c90beab4d69d",
+      "bytes": 581373,
+      "compressed_bytes": 93612
+    },
+    {
+      "compressed": "reference/upper_S2_before_lowering.step.gz",
+      "output": "reference/upper_S2_before_lowering.step",
+      "sha256": "537f700a26a6611272df9764f5bb0824488c8b3afbe9f81efa3a28cedcc3726b",
+      "compressed_sha256": "f3ff97e78d2747395741f9b85ed22a4d8561b8a0948b09b853434927feee49bb",
+      "bytes": 3429319,
+      "compressed_bytes": 548139
+    },
+    {
+      "compressed": "reference/upper_S3_before_flush.step.gz",
+      "output": "reference/upper_S3_before_flush.step",
+      "sha256": "c8602e85d93ffa99f92ce4d462ffdfe8359900fc2827a2911449a9585a8d9d2d",
+      "compressed_sha256": "3375d68881dd3c19a68684d1ea6e8ae2c42edfc911d3c4285f0ba487f588f457",
+      "bytes": 3424968,
+      "compressed_bytes": 548045
+    },
+    {
+      "compressed": "reference/upper_S4_before_rounding.step.gz",
+      "output": "reference/upper_S4_before_rounding.step",
+      "sha256": "0be85c444dc61bb786ecae3c9108252fdb4c43d46215a5a63988ea6fd5a07e5d",
+      "compressed_sha256": "585523c0eda26d114d9c82f6b00e478fc1c0524bdafb08d4d35d212f712e8f57",
+      "bytes": 3628015,
+      "compressed_bytes": 578890
+    },
+    {
+      "compressed": "reference/upper_S5_before_fasteners.step.gz",
+      "output": "reference/upper_S5_before_fasteners.step",
+      "sha256": "39f1766b526b67e7943bddfd0f24a1ccc353bed9881ce46e07962c5debe1057a",
+      "compressed_sha256": "09499153945239800b2fcf8520874393ffac1ac1670082869c70a7c02863c455",
+      "bytes": 3718394,
+      "compressed_bytes": 596543
+    },
+    {
+      "compressed": "reference/upper_S6_before_open_pocket.step.gz",
+      "output": "reference/upper_S6_before_open_pocket.step",
+      "sha256": "a64e67734de1c9c8795159285970ccbc8cbae6138b1a126ba1ebfa57945f88ea",
+      "compressed_sha256": "03205ef7b82bdb38fbb734c1b656a36f6ca22cfbfad4507037178d41629d289a",
+      "bytes": 3819473,
+      "compressed_bytes": 615407
+    },
+    {
+      "compressed": "reference/upper_S7_before_full_rim.step.gz",
+      "output": "reference/upper_S7_before_full_rim.step",
+      "sha256": "c7c13d5543db4fadc136949d3d23cb1e8fd4f9c024af7c403fc451afb73224aa",
+      "compressed_sha256": "2071a9504b5150a383c992fbc113d57725405c6a3cd7583a7def229cc4813120",
+      "bytes": 3814142,
+      "compressed_bytes": 617393
+    }
+  ]
+}

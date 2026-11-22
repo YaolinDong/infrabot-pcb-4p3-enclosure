@@ -1,0 +1,155 @@
+{
+  "lcd_v2_mechanical": {
+    "source": "EmbedFire 4.3-inch capacitive LCD module mechanical drawing V1.0",
+    "availability": "vendor document, not distributed",
+    "sha256": "e2a5d6eed52e9988c37ccd40f735af416f270cd304788e8235e7d86d91e382cd"
+  },
+  "lcd_assembly": {
+    "source": "LXCK-432691-V0 LCD assembly drawing",
+    "availability": "vendor document, not distributed",
+    "sha256": "44b96d55ebda392aabb455bee6b42c64a54f6fce741053751d7f7d8f31934292"
+  },
+  "lcd_panel": {
+    "source": "GL043056B0-40-N panel drawing, 7 LED",
+    "availability": "vendor document, not distributed",
+    "sha256": "9a649f374215813f02c2e3319305ac417c4d71040da0b53fac460a93dd3c8408"
+  },
+  "lcd_new_mechanical": {
+    "source": "EBF410261V1R0 module mechanical drawing, 2025-10-25",
+    "availability": "vendor document, not distributed",
+    "sha256": "fc83ae60d0783726d47e1e7ff0530123d1aede63b867b5313c306acee744a59d"
+  },
+  "core_mechanical": {
+    "source": "EmbedFire Challenger V2 core board bottom-side mechanical drawing V2",
+    "availability": "vendor document, not distributed",
+    "sha256": "0516fc6e0e7fad7cef0bb490b898e9e445a45937fc88dec6afeddf87d7161530"
+  },
+  "pcb": {
+    "source": "Original R8 native PCB design used for measurement",
+    "availability": "maintainer input, not distributed",
+    "sha256": "40e98ace80dfbeec7019527f55cc1ea53041d9038408661e5ce2b473e58ec82f",
+    "public_reference": {
+      "repository": "https://github.com/YaolinDong/infrabot-pcb-4p3",
+      "revision": "8cc0637cd06d5f09f8d949b2dd739ca1e2a08ede",
+      "file": "hardware/infrabot_pcb_4p3/pcb/PCB1.epcb2",
+      "sha256": "de58bcca2811995e095fde4f8d046dbdb998e814218b10896f59dc8b429fd2f8",
+      "relation": "Public R8 native design; its export has a separate checksum."
+    }
+  },
+  "layout": {
+    "source": "Maintainer R8 layout measurement record",
+    "availability": "maintainer input, not distributed",
+    "sha256": "133eac477862ab513d885ec716fbbee94de66b8b0046f773a04305b276d50468"
+  },
+  "switch": {
+    "source": "Momentary switch dimensional drawing",
+    "availability": "vendor document, not distributed",
+    "sha256": "ce34f31efd08649c1e3ca528889a3d40555b9d5f2a20d18686607f893ee8007d"
+  },
+  "power_switch": {
+    "source": "Latching power switch dimensional drawing",
+    "availability": "vendor document, not distributed",
+    "sha256": "c0144ce0df586d0e35169305a4f2e6c59cb774c93f9c53c6bf21b1ab66ca51bb"
+  },
+  "native_obj": {
+    "source": "Maintainer native board mesh used for measuring envelopes",
+    "availability": "maintainer input, not distributed",
+    "sha256": "bbc67d65e4502d40a0292efc5640fc5252a857f9700463187e0373b37ebf5107"
+  },
+  "LED2_model": {
+    "source": "Author-generated formed LED model",
+    "file": "reference/LED2_REFERENCE.step",
+    "sha256": "46edee2aa790dfde90c98b1c481701c09683fccb0df2d0dbbe00e25ba9958271",
+    "public_reference": {
+      "repository": "https://github.com/YaolinDong/infrabot-pcb-4p3",
+      "revision": "8cc0637cd06d5f09f8d949b2dd739ca1e2a08ede",
+      "file": "hardware/library/LED2_R6_formed.step",
+      "sha256": "46edee2aa790dfde90c98b1c481701c09683fccb0df2d0dbbe00e25ba9958271",
+      "relation": "Byte-identical after restoring the gzip input."
+    }
+  },
+  "LED1_S1_before_patch": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/LED1_S1_before_patch.step",
+    "sha256": "e49d152a2a03789f466cf9cffb436440c0a7f21f13428f6d397a8266a0c62c2d"
+  },
+  "upper_S2_before_lowering": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/upper_S2_before_lowering.step",
+    "sha256": "537f700a26a6611272df9764f5bb0824488c8b3afbe9f81efa3a28cedcc3726b"
+  },
+  "upper_S3_before_flush": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/upper_S3_before_flush.step",
+    "sha256": "c8602e85d93ffa99f92ce4d462ffdfe8359900fc2827a2911449a9585a8d9d2d"
+  },
+  "lower_S3_before_flush": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/lower_S3_before_flush.step",
+    "sha256": "6f0d6739411405fd3e5ed2459597e9759ca9188fb1b3012899f089fca242f4e8"
+  },
+  "lower_S4_before_rounding": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/lower_S4_before_rounding.step",
+    "sha256": "c847b0deb3f5a9616ec8ac0440a0b63669984abdba8e9f762b4fa8128fed0098"
+  },
+  "upper_S4_before_rounding": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/upper_S4_before_rounding.step",
+    "sha256": "0be85c444dc61bb786ecae3c9108252fdb4c43d46215a5a63988ea6fd5a07e5d"
+  },
+  "S4_parameters": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/S4_parameters.json",
+    "sha256": "7a5a62d3e48d69d849bf39c85e73578f820f84e860a2e78444022a2bb9ec5fbe",
+    "original_sha256": "5685d2deb4ce82c62fbacc7f4944959571265db741ef0c22f7dacaf2e7abf917"
+  },
+  "lower_S5_before_fasteners": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/lower_S5_before_fasteners.step",
+    "sha256": "f014afa5cc5b6d1388b6b53a842243af377c98276026339deaf570e36c4d7913"
+  },
+  "upper_S5_before_fasteners": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/upper_S5_before_fasteners.step",
+    "sha256": "39f1766b526b67e7943bddfd0f24a1ccc353bed9881ce46e07962c5debe1057a"
+  },
+  "S5_parameters": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/S5_parameters.json",
+    "sha256": "8a13d9c6334e8d8ff2da328d4765e8249b200c7faeb575c5895895f853173d6a",
+    "original_sha256": "6a3b3d25877226add7afad07f6d77d2d8302490b1111a3810b59477663253cb5"
+  },
+  "lower_S6_before_open_pocket": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/lower_S6_before_open_pocket.step",
+    "sha256": "1da3cacd6c9c800adfe411b497edf8083e58cdb2337b1ad4f117bfa63e77ce33"
+  },
+  "upper_S6_before_open_pocket": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/upper_S6_before_open_pocket.step",
+    "sha256": "a64e67734de1c9c8795159285970ccbc8cbae6138b1a126ba1ebfa57945f88ea"
+  },
+  "S6_parameters": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/S6_parameters.json",
+    "sha256": "2723b22eeba66e09c50a6ed40837c77662fd68d64f68d6a5f330d033adf2d3a3",
+    "original_sha256": "48a06191162b88043c865968e383a6619127cc67780ce587e6b932fdb1f90693"
+  },
+  "lower_S7_before_full_rim": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/lower_S7_before_full_rim.step",
+    "sha256": "29f55a3c49319fd88c714532744fc1d99e8c24cccfce118d29f1a6828247d757"
+  },
+  "upper_S7_before_full_rim": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/upper_S7_before_full_rim.step",
+    "sha256": "c7c13d5543db4fadc136949d3d23cb1e8fd4f9c024af7c403fc451afb73224aa"
+  },
+  "S7_parameters": {
+    "source": "Frozen simple enclosure reference",
+    "file": "reference/S7_parameters.json",
+    "sha256": "34e13787dcd1be5a008666c109417530c2c366329e45b7f3e994079f48c6fa87",
+    "original_sha256": "57a099b0e54b9779570fc0e019dc8a42d8f1a1fea4462c323d740c6a8b612dbe"
+  }
+}

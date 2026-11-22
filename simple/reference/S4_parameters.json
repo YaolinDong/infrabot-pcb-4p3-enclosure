@@ -1,0 +1,444 @@
+{
+  "revision": "R8_S16_SIMPLE_S4",
+  "pcb_revision_commit": "8cc0637cd06d5f09f8d949b2dd739ca1e2a08ede",
+  "coordinate_system": "mm; PCB lower-left=(0,0), top face Z=0. User-view right=PCB +Y, up=PCB -X.",
+  "board": {
+    "size": [
+      100,
+      130
+    ],
+    "thickness": 1.6,
+    "top_z": 0,
+    "status": "XY from native R8; thickness nominal"
+  },
+  "case": {
+    "edge_margin": 4.2,
+    "wall": 2.4,
+    "bottom_z": -9.0,
+    "floor": 2.4,
+    "seam_z": 3.0,
+    "corner_radius": 3.6,
+    "lip_depth": 2.0,
+    "lip_wall": 1.2,
+    "lip_clearance": 0.3,
+    "face_thickness": 2.4,
+    "glass_gap": 0.5
+  },
+  "lcd": {
+    "pcb_bbox": [
+      2.9,
+      6.9,
+      72.1,
+      125.1
+    ],
+    "pcb_thickness": 1.6,
+    "standoff": 16.0,
+    "standoff_spec": "M3 male-female; 16 mm body, nominal 6 mm male stud",
+    "glass_bbox": [
+      3.95,
+      13.3,
+      71.05,
+      118.7
+    ],
+    "lens_window_bbox": [
+      7.55,
+      18.0,
+      62.45,
+      114.0
+    ],
+    "window_extra_each_side": 1.0,
+    "lcm_thickness": 3.0,
+    "touch_thickness": 1.05,
+    "total_mount_adhesive_allowance": 1.0,
+    "glass_top_z_measured": null,
+    "unverified": [
+      "Screen PCB thickness and total adhesive stack",
+      "Actual LCD glass registration relative to four mounting holes",
+      "Unused LCD header protrusion 2.5+6 mm",
+      "LCD underside FPC sockets/components and FPC bend envelope are not fully modelled"
+    ],
+    "header_bbox": [
+      13.4,
+      7.59,
+      61.66,
+      12.67
+    ],
+    "header_protrusion": 8.5,
+    "status": "PCB XY and panel drawing dimensions verified; actual assembled Z unknown, user confirmed unknown"
+  },
+  "core": {
+    "bbox": [
+      11.5,
+      32.5,
+      66.5,
+      87.5
+    ],
+    "pcb_bottom_z": 6.0,
+    "pcb_thickness": 1.6,
+    "max_component_top_z": 14.0,
+    "status": "55x55 mm and hole XY drawing-derived; Z envelope is an assumption, not a measured core model"
+  },
+  "controls": {
+    "SW1": [
+      89.50000134,
+      30.000000959999998
+    ],
+    "SW2": [
+      89.50000134,
+      57.0000003
+    ],
+    "SW3": [
+      89.50000134,
+      91.99999887999999
+    ],
+    "SW4": [
+      89.50000134,
+      120.0000013
+    ],
+    "LED1": [
+      89.50000134,
+      43.000000359999994
+    ],
+    "LED2": [
+      89.50000134,
+      105.99999881999999
+    ]
+  },
+  "mounts": {
+    "lcd": [
+      [
+        5.9,
+        9.9
+      ],
+      [
+        5.9,
+        122.1
+      ],
+      [
+        69.1,
+        9.9
+      ],
+      [
+        69.1,
+        122.1
+      ]
+    ],
+    "core": [
+      [
+        14.5,
+        35.5
+      ],
+      [
+        14.5,
+        84.5
+      ],
+      [
+        63.5,
+        35.5
+      ],
+      [
+        63.5,
+        84.5
+      ]
+    ],
+    "case": [
+      [
+        96.5,
+        19
+      ],
+      [
+        96.5,
+        75
+      ],
+      [
+        96.5,
+        106
+      ]
+    ],
+    "top_lcd_fasteners": [
+      [
+        5.9,
+        9.9
+      ],
+      [
+        5.9,
+        122.1
+      ],
+      [
+        69.1,
+        9.9
+      ],
+      [
+        69.1,
+        122.1
+      ]
+    ],
+    "top_case_fasteners": [],
+    "boss_lower_diameter": 8.0,
+    "boss_neck_diameter": 6.0,
+    "boss_neck_bottom_z": -2.4,
+    "nut_af": 5.8,
+    "nut_top_z": -3.2,
+    "screw_clearance": 3.4,
+    "front_head_diameter": 6.2,
+    "front_head_recess": 2.0,
+    "front_head_spec": "M3 button-head screw, head height <=1.8 mm",
+    "required_nut_positions": [
+      [
+        5.9,
+        9.9
+      ],
+      [
+        5.9,
+        122.1
+      ],
+      [
+        69.1,
+        9.9
+      ],
+      [
+        69.1,
+        122.1
+      ],
+      [
+        96.5,
+        19
+      ],
+      [
+        96.5,
+        75
+      ],
+      [
+        96.5,
+        106
+      ]
+    ]
+  },
+  "ports": [
+    {
+      "ref": "J2",
+      "label": "ETH",
+      "side": "+Y",
+      "span": [
+        9.2,
+        27.8
+      ],
+      "z": [
+        -0.5,
+        14.9
+      ],
+      "note": "RJ45 mouth/latch access; native top=13.84 mm"
+    },
+    {
+      "ref": "J3",
+      "label": "USB",
+      "side": "+Y",
+      "span": [
+        39.0,
+        52.7
+      ],
+      "z": [
+        -1.0,
+        6.8
+      ],
+      "note": "USB-C access for larger cable overmould; shares an opening edge with CAN"
+    },
+    {
+      "ref": "J5",
+      "label": "CAN",
+      "side": "+Y",
+      "span": [
+        52.7,
+        65.2
+      ],
+      "z": [
+        -0.5,
+        10.0
+      ],
+      "note": "Wire entry; wire and tighten terminal before closing lid"
+    },
+    {
+      "ref": "J1",
+      "label": "DC",
+      "side": "+X",
+      "span": [
+        2.9,
+        14.5
+      ],
+      "z": [
+        -0.5,
+        12.0
+      ],
+      "note": "DC barrel connector access"
+    },
+    {
+      "ref": "J6",
+      "label": "SWD",
+      "side": "-Y",
+      "span": [
+        27.7,
+        42.3
+      ],
+      "z": [
+        -1.0,
+        6.4
+      ],
+      "note": "5 pin right-angle header; mating female housing remains TBD"
+    }
+  ],
+  "assembly_kind": "Exactly two printed shells; stock actuators and direct LED openings; 16 mm LCD posts; seven M3 screws and seven standard M3 hex nuts; no tapping",
+  "readiness": "FIT_PROTOTYPE; actual assembled LCD height, actuator and LED mounting heights and mating plugs still require checking.",
+  "sources": {
+    "lcd_v2_mechanical": {
+      "source": "EmbedFire 4.3-inch capacitive LCD module mechanical drawing V1.0",
+      "availability": "vendor document, not distributed",
+      "sha256": "e2a5d6eed52e9988c37ccd40f735af416f270cd304788e8235e7d86d91e382cd"
+    },
+    "lcd_assembly": {
+      "source": "LXCK-432691-V0 LCD assembly drawing",
+      "availability": "vendor document, not distributed",
+      "sha256": "44b96d55ebda392aabb455bee6b42c64a54f6fce741053751d7f7d8f31934292"
+    },
+    "lcd_panel": {
+      "source": "GL043056B0-40-N panel drawing, 7 LED",
+      "availability": "vendor document, not distributed",
+      "sha256": "9a649f374215813f02c2e3319305ac417c4d71040da0b53fac460a93dd3c8408"
+    },
+    "lcd_new_mechanical": {
+      "source": "EBF410261V1R0 module mechanical drawing, 2025-10-25",
+      "availability": "vendor document, not distributed",
+      "sha256": "fc83ae60d0783726d47e1e7ff0530123d1aede63b867b5313c306acee744a59d"
+    },
+    "core_mechanical": {
+      "source": "EmbedFire Challenger V2 core board bottom-side mechanical drawing V2",
+      "availability": "vendor document, not distributed",
+      "sha256": "0516fc6e0e7fad7cef0bb490b898e9e445a45937fc88dec6afeddf87d7161530"
+    },
+    "pcb": {
+      "source": "Original R8 native PCB design used for measurement",
+      "availability": "maintainer input, not distributed",
+      "sha256": "40e98ace80dfbeec7019527f55cc1ea53041d9038408661e5ce2b473e58ec82f",
+      "public_reference": {
+        "repository": "https://github.com/YaolinDong/infrabot-pcb-4p3",
+        "revision": "8cc0637cd06d5f09f8d949b2dd739ca1e2a08ede",
+        "file": "hardware/infrabot_pcb_4p3/pcb/PCB1.epcb2",
+        "sha256": "de58bcca2811995e095fde4f8d046dbdb998e814218b10896f59dc8b429fd2f8",
+        "relation": "Public R8 native design; its export has a separate checksum."
+      }
+    },
+    "layout": {
+      "source": "Maintainer R8 layout measurement record",
+      "availability": "maintainer input, not distributed",
+      "sha256": "133eac477862ab513d885ec716fbbee94de66b8b0046f773a04305b276d50468"
+    },
+    "switch": {
+      "source": "Momentary switch dimensional drawing",
+      "availability": "vendor document, not distributed",
+      "sha256": "ce34f31efd08649c1e3ca528889a3d40555b9d5f2a20d18686607f893ee8007d"
+    },
+    "power_switch": {
+      "source": "Latching power switch dimensional drawing",
+      "availability": "vendor document, not distributed",
+      "sha256": "c0144ce0df586d0e35169305a4f2e6c59cb774c93f9c53c6bf21b1ab66ca51bb"
+    },
+    "native_obj": {
+      "source": "Maintainer native board mesh used for measuring envelopes",
+      "availability": "maintainer input, not distributed",
+      "sha256": "bbc67d65e4502d40a0292efc5640fc5252a857f9700463187e0373b37ebf5107"
+    },
+    "LED2_model": {
+      "source": "Author-generated formed LED model",
+      "file": "reference/LED2_REFERENCE.step",
+      "sha256": "46edee2aa790dfde90c98b1c481701c09683fccb0df2d0dbbe00e25ba9958271",
+      "public_reference": {
+        "repository": "https://github.com/YaolinDong/infrabot-pcb-4p3",
+        "revision": "8cc0637cd06d5f09f8d949b2dd739ca1e2a08ede",
+        "file": "hardware/library/LED2_R6_formed.step",
+        "sha256": "46edee2aa790dfde90c98b1c481701c09683fccb0df2d0dbbe00e25ba9958271",
+        "relation": "Byte-identical after restoring the gzip input."
+      }
+    },
+    "LED1_S1_before_patch": {
+      "source": "Frozen simple enclosure reference",
+      "file": "reference/LED1_S1_before_patch.step",
+      "sha256": "e49d152a2a03789f466cf9cffb436440c0a7f21f13428f6d397a8266a0c62c2d"
+    },
+    "upper_S2_before_lowering": {
+      "source": "Frozen simple enclosure reference",
+      "file": "reference/upper_S2_before_lowering.step",
+      "sha256": "537f700a26a6611272df9764f5bb0824488c8b3afbe9f81efa3a28cedcc3726b"
+    },
+    "upper_S3_before_flush": {
+      "source": "Frozen simple enclosure reference",
+      "file": "reference/upper_S3_before_flush.step",
+      "sha256": "c8602e85d93ffa99f92ce4d462ffdfe8359900fc2827a2911449a9585a8d9d2d"
+    },
+    "lower_S3_before_flush": {
+      "source": "Frozen simple enclosure reference",
+      "file": "reference/lower_S3_before_flush.step",
+      "sha256": "6f0d6739411405fd3e5ed2459597e9759ca9188fb1b3012899f089fca242f4e8"
+    }
+  },
+  "simple_controls": {
+    "deck_z": 5.5,
+    "deck_thickness": 2.0,
+    "step_x": 78.0,
+    "momentary_height": 17.0,
+    "momentary_diameter": 6.5,
+    "momentary_hole_diameter": 7.8,
+    "momentary_travel_max": 0.35,
+    "power_height": 14.1,
+    "power_body_height": 8.5,
+    "power_hole_size": 10.0,
+    "power_travel_max": 3.3,
+    "reset_guard": {
+      "outer_diameter": 12.8,
+      "inner_diameter": 10.0,
+      "top_z": 18.0
+    },
+    "LED1_top_z": 5.5035,
+    "LED1_hole_diameter": 4.4,
+    "LED1_well_top_z": 4.9,
+    "LED1_well_floor": 2.0,
+    "LED1_well_inner_diameter": 5.6,
+    "LED1_well_outer_diameter": 7.0,
+    "LED2_top_z": 11.7,
+    "LED2_hole_diameter": 6.4,
+    "finger_probe_radius": 8.0,
+    "direct_LED_sightline_angle_deg": 25,
+    "note": "5.5 mm control deck approximately flush with LED1; rounded POWER guard; shallow underside reliefs around momentary bodies; original actuators, no added keycaps or lightpipes.",
+    "dc_hood_top_z": 13.4,
+    "dc_hood_end_y": 19.0,
+    "deck_rib_y": [
+      21.0,
+      75.0
+    ],
+    "LED1_well_style": "Near-flush LED1 with a 0.6 mm smooth round-over at the 4.4 mm bore",
+    "LED1_profile_bottom_tangent_mm": 0.33,
+    "LED1_profile_top_tangent_mm": 0.33,
+    "deck_rib_depth": 1.2,
+    "momentary_body_relief_size": 13.2,
+    "momentary_body_relief_top_z": 4.0,
+    "power_guard": {
+      "outer_size": 14.0,
+      "outer_corner_radius": 2.0,
+      "top_edge_radius": 0.6,
+      "top_z": 10.2
+    },
+    "LED1_integrated_cup": false
+  },
+  "provenance": {
+    "imported_C3_parameters": {
+      "source": "Original C3 design parameter snapshot",
+      "availability": "maintainer provenance record",
+      "sha256": "39686e87db67ed9644465b8783d6a2e24d1decdb2c85f9831f3e4adfe93b8ce3"
+    }
+  },
+  "required_hardware": {
+    "M3x12_button_head_screws": 4,
+    "M3x6_button_head_screws": 3,
+    "M3_hex_nuts": 7,
+    "M3_16mm_male_female_standoffs": 4,
+    "optional_core_region_M3x6_screws_and_nuts": 4
+  }
+}
