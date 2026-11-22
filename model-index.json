@@ -1,0 +1,339 @@
+{
+  "units": "mm",
+  "editions": {
+    "simple": {
+      "name": "Simple S8",
+      "path": "simple",
+      "revision": "R8_S16_SIMPLE_S8",
+      "printed_parts": 2,
+      "extra_fit_parts": 0,
+      "screen_spacer": "M3 female-female, 16 mm"
+    },
+    "deluxe": {
+      "name": "Deluxe C3",
+      "path": "deluxe",
+      "revision": "R8_S16_C3_NUT",
+      "printed_parts": 9,
+      "extra_fit_parts": 2,
+      "screen_spacer": "C3 original male-female, 16 mm"
+    }
+  },
+  "files": [
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/00_enclosure_assembly.step",
+      "role": "assembly_reference",
+      "bytes": 4988192,
+      "sha256": "25bbc5ea4d2417ccc4c7bc2d77f1218ce5a7b8912da977c966a5e77544bc2159"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/00_fit_reference_assembly.step",
+      "role": "assembly_with_electronic_reference",
+      "bytes": 6051406,
+      "sha256": "bf2408b53dadd57739455951f17721a32337479ab04498c3aa283ce6f8c63f39"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/01_lower_shell.step",
+      "role": "editable_part",
+      "bytes": 647490,
+      "sha256": "1faa5b60abbdb45d6da39a3cba777f1771c3cd11559e6b40a827e7bb5a963ef2"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/02_upper_shell.step",
+      "role": "editable_part",
+      "bytes": 2028438,
+      "sha256": "f352ab06f3516719734f50b3cbdb22bcd35ffcc097398aa9c95f1918ae780fca"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/03_key_retainer.step",
+      "role": "editable_part",
+      "bytes": 205047,
+      "sha256": "a1166235c51f443d965600a18bfd5b695a079bd0068e5c730f9990a418738f37"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/04_key_POWER.step",
+      "role": "editable_part",
+      "bytes": 491102,
+      "sha256": "056c9e3cb03b5c2323c0b3e3682e348e305b46d65fbff89b6b76199784a210b5"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/05_key_RESET.step",
+      "role": "editable_part",
+      "bytes": 460708,
+      "sha256": "2c144887991fdab19abd7ce9e04ad5bb97495cdf5f47648ad363fb9f9af17a3c"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/06_key_STOP.step",
+      "role": "editable_part",
+      "bytes": 434063,
+      "sha256": "2d35fcd878551cdccbab76fc5731137cc21aaa0798f30ddba50a1e4664bb3505"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/07_key_RESUME.step",
+      "role": "editable_part",
+      "bytes": 554302,
+      "sha256": "c9721877b2ae0c33b12d7452c2282888a49ddbe398351d54483f22d99ffacaf6"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/08_lightpipe_PWR.step",
+      "role": "editable_part",
+      "bytes": 16225,
+      "sha256": "c45bb897afdb8a16f81da757ba7b9ee977944e1394c37ec33337b9679beded74"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/09_lightpipe_STATUS.step",
+      "role": "editable_part",
+      "bytes": 16222,
+      "sha256": "f1f87406c943d3348cbaaadb7ce3510958bd5b3d9a3af1fd41e2dec63e571869"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/10_fit_coupon.step",
+      "role": "optional_fit_test",
+      "bytes": 1518762,
+      "sha256": "b6fcf00b486b83c5eb20914a7730ca603fd0090f0b0155b9ac936c18b2dbfca9"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/11_front_fit_template.step",
+      "role": "optional_fit_test",
+      "bytes": 1631437,
+      "sha256": "7eb771cf857eee44c2be5b796390ed781fa67da3195b59209a5ec70d2529cd70"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STEP/layout_reference_mm.dxf",
+      "role": "layout_reference",
+      "bytes": 27290,
+      "sha256": "3f986d833aa8b6435649d265cbfa679aa58d9607317525ae0671df30141dcaab"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/01_lower_shell.stl",
+      "role": "print_part",
+      "bytes": 847284,
+      "sha256": "b930358e6d6f5ef878030325084cde557e1ad6113ce68be8c5ee302901083ad8"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/02_upper_shell.stl",
+      "role": "print_part",
+      "bytes": 1230484,
+      "sha256": "0c701e972eaf6f08ad6b2a54baa3109a3204b271b0612a8eeaafe39e66ac7e8f"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/03_key_retainer.stl",
+      "role": "print_part",
+      "bytes": 470284,
+      "sha256": "b3593d379e826b4e91cf56c9a0f2723a69a385010a573930af79818342726b77"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/04_key_POWER.stl",
+      "role": "print_part",
+      "bytes": 253484,
+      "sha256": "8123753e96aaa306c344716d10febcb7ffa29e1d29ecf23ca1275ebfa6a86e06"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/05_key_RESET.stl",
+      "role": "print_part",
+      "bytes": 233684,
+      "sha256": "c2deaca2a16ed5624c400d426e4b71aee55eaa517075045df75b101e78e71e9f"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/06_key_STOP.stl",
+      "role": "print_part",
+      "bytes": 277884,
+      "sha256": "1607866eae5aa33e28c9a1405ed58d2fdb33e9c360dbdbacc44de822f60ad316"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/07_key_RESUME.stl",
+      "role": "print_part",
+      "bytes": 273484,
+      "sha256": "96668136c89a03222226d7cd96a3d34dbace90753586da7494c8364edde8e7b8"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/08_lightpipe_PWR.stl",
+      "role": "print_part",
+      "bytes": 105184,
+      "sha256": "f9910fee92f1fe33cea1b382a7060b1e123fadf821abfa704e80c0dcc500fa0d"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/09_lightpipe_STATUS.stl",
+      "role": "print_part",
+      "bytes": 99884,
+      "sha256": "628c840d10c2871cce56d99d1e8d7954c80dd580c78de7d1d7807f8b16a69a2c"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/10_fit_coupon.stl",
+      "role": "optional_fit_test",
+      "bytes": 1063184,
+      "sha256": "322994589b6dcda43e5bce42eb8eb716d860d42e52e0cf462558e0477a7ff3f4"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/STL/11_front_fit_template.stl",
+      "role": "optional_fit_test",
+      "bytes": 834084,
+      "sha256": "9602bd5b4bb84f84b16cc02113a60bc1b936bc64624a8d1c73cb90a5db0df660"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/preview/00_overview.png",
+      "role": "preview",
+      "bytes": 528635,
+      "sha256": "36262d241c196133d9a0fc20d028ea187ff5bae443ad6f5ea82acad5cc3ab0d0"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/preview/assembled.png",
+      "role": "preview",
+      "bytes": 59967,
+      "sha256": "f1f0ebcf8cd63a0e2714c6ca5a1e395bf28b6d441fe3021898eb2f24bd1a32de"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/preview/dimensions.png",
+      "role": "preview",
+      "bytes": 469904,
+      "sha256": "f86ff17068c690d144e5975edac117fe13bd538c1965e9372664d64903dada57"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/preview/exploded.png",
+      "role": "preview",
+      "bytes": 73258,
+      "sha256": "9d3d4ec7efe9cb84fb56dced22209d72969f0808fd12ccbf1e0602bf077233ba"
+    },
+    {
+      "edition": "deluxe",
+      "path": "deluxe/preview/nut_install_steps.png",
+      "role": "preview",
+      "bytes": 124217,
+      "sha256": "52e891874c248f1c815de0ba9bd7b76516c323e8a2176ebc86dfe0f37ff72baf"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/STEP/00_fit_reference_assembly.step",
+      "role": "assembly_with_electronic_reference",
+      "bytes": 6021553,
+      "sha256": "fd8f081bb42a73b1d7700d6f7b907ac82374ffc4deea1b2ee5593f62e3c8ac54"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/STEP/00_shells_assembly.step",
+      "role": "assembly_reference",
+      "bytes": 4687113,
+      "sha256": "ef04abb2155611b73283978833bf21e1cb4ddea8d76167f315d803e562a23370"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/STEP/01_lower_shell.step",
+      "role": "editable_part",
+      "bytes": 581373,
+      "sha256": "ce8039f6df62a92994d988f25dea7a301299c76651c2cdfc0d3c0b5d3a709268"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/STEP/02_upper_shell.step",
+      "role": "editable_part",
+      "bytes": 4077151,
+      "sha256": "a2cb28e8069633342308e2e0ed95871cce2b8e65496524813085f50079b8bd0d"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/STEP/layout_reference_mm.dxf",
+      "role": "layout_reference",
+      "bytes": 18655,
+      "sha256": "3d48a00d55c7788bd68fc04b869908717d416fcda1dd54926454ffc5a2256f37"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/STL/01_lower_shell.stl",
+      "role": "print_part",
+      "bytes": 1228284,
+      "sha256": "eaffbd919cedcb533cd887ebf19e1038f12a8a1144cdcb8fe93e72907686bbd6"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/STL/02_upper_shell.stl",
+      "role": "print_part",
+      "bytes": 4560084,
+      "sha256": "613c80c3d7ddb0e1cd7a999ce4a6761bd69ca59a56beeb596f1e47dccf320be5"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/preview/CASE9_compare.png",
+      "role": "preview",
+      "bytes": 194106,
+      "sha256": "0e0b5e240a8fc0cda48b5e6daf1b607a467cc530bbb40f54ca4ff064abfed24a"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/preview/assembled.png",
+      "role": "preview",
+      "bytes": 178430,
+      "sha256": "14765e807b4044655e74755350d30def2d88f8e8f8f0741ae20a9bbb9e9d410d"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/preview/dimensions.png",
+      "role": "preview",
+      "bytes": 123226,
+      "sha256": "4ff93ea1bae8b6937503233cc2253d13d4a2ae0139a5a1597d9532d4acf4a572"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/preview/exploded.png",
+      "role": "preview",
+      "bytes": 176420,
+      "sha256": "4bf041267207530481a9e1377b85cfec6df8a8da0e1243627f39dd874add7260"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/preview/fastener_stack_guide.png",
+      "role": "preview",
+      "bytes": 122784,
+      "sha256": "56f6e2ba2012ce8903ef864fd92cb5cd76b358f9f9464f2dd96ad800d4b63f2f"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/preview/fasteners_compare.png",
+      "role": "preview",
+      "bytes": 267345,
+      "sha256": "1b8620ab21c1f6846a5579e783364f67562cb8f30b6c85a82cb8dee102362ab7"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/preview/front.png",
+      "role": "preview",
+      "bytes": 64883,
+      "sha256": "d76a2efc6129831486f19a540d4a9fcee3e47b118e1e4fc8222257f544c2b848"
+    },
+    {
+      "edition": "simple",
+      "path": "simple/preview/mounting-plan.png",
+      "role": "preview",
+      "bytes": 164741,
+      "sha256": "62493df21ee85e4aa6c52c4f6fbc33e3d2f6aeb017b45bc91a1b9a21cc28949c"
+    }
+  ],
+  "total_bytes": 48481737
+}

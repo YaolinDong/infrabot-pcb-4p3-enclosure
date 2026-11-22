@@ -1,0 +1,662 @@
+[
+  {
+    "ref": "J3",
+    "pin": "2",
+    "xy_mm": [
+      41.67492554,
+      127.24422353999998
+    ],
+    "radius_mm": 0.6499988,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J3",
+    "pin": "1",
+    "xy_mm": [
+      41.67492554,
+      123.06429793999999
+    ],
+    "radius_mm": 0.7999985000000001,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J3",
+    "pin": "4",
+    "xy_mm": [
+      50.324844739999996,
+      123.06432333999999
+    ],
+    "radius_mm": 0.7999985000000001,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J3",
+    "pin": "3",
+    "xy_mm": [
+      50.324844739999996,
+      127.24422353999998
+    ],
+    "radius_mm": 0.6499988,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J1",
+    "pin": "1",
+    "xy_mm": [
+      86.27005859999998,
+      8.64834186
+    ],
+    "radius_mm": 1.7999964999999998,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J1",
+    "pin": "2",
+    "xy_mm": [
+      92.2699958,
+      8.64834186
+    ],
+    "radius_mm": 1.6999839999999997,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J1",
+    "pin": "3",
+    "xy_mm": [
+      89.2702558,
+      13.351659859999998
+    ],
+    "radius_mm": 1.6999839999999997,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "1",
+    "xy_mm": [
+      22.9500049,
+      113.09504432
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "2",
+    "xy_mm": [
+      21.6799541,
+      110.55504432000001
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "3",
+    "xy_mm": [
+      20.409954099999997,
+      113.09504432
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "4",
+    "xy_mm": [
+      19.139954099999997,
+      110.55504432000001
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "5",
+    "xy_mm": [
+      17.869954099999998,
+      113.09504432
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "6",
+    "xy_mm": [
+      16.599954099999998,
+      110.55504432000001
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "7",
+    "xy_mm": [
+      15.329954099999997,
+      113.09504432
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "8",
+    "xy_mm": [
+      14.059954099999997,
+      110.55504432000001
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "9",
+    "xy_mm": [
+      25.1250831,
+      124.34498371999999
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "10",
+    "xy_mm": [
+      22.5850831,
+      124.34498371999999
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "11",
+    "xy_mm": [
+      14.414919099999999,
+      124.34498371999999
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "12",
+    "xy_mm": [
+      11.874919100000001,
+      124.34498371999999
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "SH1",
+    "xy_mm": [
+      26.244994499999997,
+      116.39498692000001
+    ],
+    "radius_mm": 0.9499982,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J2",
+    "pin": "SH2",
+    "xy_mm": [
+      10.755007699999998,
+      116.39498692000001
+    ],
+    "radius_mm": 0.9499982,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J4",
+    "pin": "1",
+    "xy_mm": [
+      68.7299997,
+      127.50000153999999
+    ],
+    "radius_mm": 0.6499988,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J4",
+    "pin": "2",
+    "xy_mm": [
+      71.2699997,
+      127.50000153999999
+    ],
+    "radius_mm": 0.6499988,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J5",
+    "pin": "1",
+    "xy_mm": [
+      62.00017318,
+      126.00008074
+    ],
+    "radius_mm": 0.6499988,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J5",
+    "pin": "2",
+    "xy_mm": [
+      58.50018018,
+      126.00008074
+    ],
+    "radius_mm": 0.6499988,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J5",
+    "pin": "3",
+    "xy_mm": [
+      55.00018718,
+      126.00008074
+    ],
+    "radius_mm": 0.6499988,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW1",
+    "pin": "1",
+    "xy_mm": [
+      86.96000133999999,
+      27.34999356
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW1",
+    "pin": "2",
+    "xy_mm": [
+      89.50000134,
+      27.34999356
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW1",
+    "pin": "3",
+    "xy_mm": [
+      92.04000134,
+      27.34999356
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW1",
+    "pin": "6",
+    "xy_mm": [
+      92.04000134,
+      32.650008359999994
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW1",
+    "pin": "5",
+    "xy_mm": [
+      89.50000134,
+      32.650008359999994
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW1",
+    "pin": "4",
+    "xy_mm": [
+      86.96000133999999,
+      32.650008359999994
+    ],
+    "radius_mm": 0.6000116,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW4",
+    "pin": "4",
+    "xy_mm": [
+      95.74992533999999,
+      117.50013329999999
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW4",
+    "pin": "3",
+    "xy_mm": [
+      83.25007734,
+      117.50013329999999
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW4",
+    "pin": "2",
+    "xy_mm": [
+      95.74992533999999,
+      122.5001233
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW4",
+    "pin": "1",
+    "xy_mm": [
+      83.25007734,
+      122.5001233
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "LED1",
+    "pin": "1",
+    "xy_mm": [
+      88.23000134,
+      43.000000359999994
+    ],
+    "radius_mm": 0.5072,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "LED1",
+    "pin": "2",
+    "xy_mm": [
+      90.77000134,
+      43.000000359999994
+    ],
+    "radius_mm": 0.5072,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J6",
+    "pin": "5",
+    "xy_mm": [
+      40.08000112,
+      11.300127259999998
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J6",
+    "pin": "1",
+    "xy_mm": [
+      29.92000112,
+      11.300000259999997
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J6",
+    "pin": "2",
+    "xy_mm": [
+      32.46000112,
+      11.300127259999998
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J6",
+    "pin": "3",
+    "xy_mm": [
+      35.00000112,
+      11.300127259999998
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "J6",
+    "pin": "4",
+    "xy_mm": [
+      37.54000112,
+      11.300127259999998
+    ],
+    "radius_mm": 0.549999,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW2",
+    "pin": "4",
+    "xy_mm": [
+      95.74992533999999,
+      54.5001323
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW2",
+    "pin": "3",
+    "xy_mm": [
+      83.25007734,
+      54.5001323
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW2",
+    "pin": "2",
+    "xy_mm": [
+      95.74992533999999,
+      59.50012230000001
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW2",
+    "pin": "1",
+    "xy_mm": [
+      83.25007734,
+      59.50012230000001
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW3",
+    "pin": "4",
+    "xy_mm": [
+      95.74992533999999,
+      89.50013088
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW3",
+    "pin": "3",
+    "xy_mm": [
+      83.25007734,
+      89.50013088
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW3",
+    "pin": "2",
+    "xy_mm": [
+      95.74992533999999,
+      94.50012088000001
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "SW3",
+    "pin": "1",
+    "xy_mm": [
+      83.25007734,
+      94.50012088000001
+    ],
+    "radius_mm": 0.8000112,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "LED2",
+    "pin": "1",
+    "xy_mm": [
+      91.40500134,
+      105.09999807999999
+    ],
+    "radius_mm": 0.5000003700000001,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "LED2",
+    "pin": "2",
+    "xy_mm": [
+      90.13500134,
+      106.89999956
+    ],
+    "radius_mm": 0.5000003700000001,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "LED2",
+    "pin": "3",
+    "xy_mm": [
+      88.86500133999999,
+      105.09999807999999
+    ],
+    "radius_mm": 0.5000003700000001,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  },
+  {
+    "ref": "LED2",
+    "pin": "4",
+    "xy_mm": [
+      87.59500134,
+      106.89999956
+    ],
+    "radius_mm": 0.5000003700000001,
+    "bottom_z": -4.1,
+    "top_z": -1.6,
+    "note": "Conservative round pin/peg envelope: drill radius +0.05, max underside projection 4.1 mm"
+  }
+]

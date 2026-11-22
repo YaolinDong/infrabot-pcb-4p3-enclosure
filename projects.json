@@ -1,0 +1,24 @@
+{
+  "default": "simple",
+  "projects": {
+    "simple": {
+      "name": "Simple S8",
+      "path": "simple",
+      "revision": "R8_S16_SIMPLE_S8",
+      "printed_parts": 2,
+      "extra_fit_parts": 0,
+      "screen_spacer": "M3 female-female, 16 mm"
+    },
+    "deluxe": {
+      "name": "Deluxe C3",
+      "path": "deluxe",
+      "revision": "R8_S16_C3_NUT",
+      "printed_parts": 9,
+      "extra_fit_parts": 2,
+      "screen_spacer": "C3 original male-female, 16 mm"
+    }
+  },
+  "aliases": {
+    "keycaps": "deluxe"
+  }
+}
