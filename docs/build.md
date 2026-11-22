@@ -4,13 +4,14 @@ The downloadable STL and STEP files are ready to use. Rebuild in a separate chec
 
 ## Check a downloaded release
 
-Use Python 3.11 or later. The first two commands require only the standard library. The last command also needs the Git checkout and the maintainer’s external mode-0600 literal-rule file.
+Use Python 3.11 or later. Both commands require only the standard library.
 
 ```sh
 python3 -B tools/verify.py
 python3 -B -m unittest discover -s tests -v
-INFRABOT_PRIVATE_DENYLIST="$HOME/.config/infrabot/prepublish-denylist.txt" tools/prepublish_check.sh --history
 ```
+
+The release check for maintainers is described in [CONTRIBUTING](../CONTRIBUTING.md).
 
 ## CAD environment
 
