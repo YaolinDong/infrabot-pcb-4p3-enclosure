@@ -1,0 +1,92 @@
+{
+  "revision": "R8_S16_C3_NUT",
+  "units": "mm",
+  "parts": {
+    "01_lower_shell": {
+      "step": "STEP/01_lower_shell.step",
+      "stl": "STL/01_lower_shell.stl",
+      "quantity": 1,
+      "role": "enclosure_part"
+    },
+    "02_upper_shell": {
+      "step": "STEP/02_upper_shell.step",
+      "stl": "STL/02_upper_shell.stl",
+      "quantity": 1,
+      "role": "enclosure_part"
+    },
+    "03_key_retainer": {
+      "step": "STEP/03_key_retainer.step",
+      "stl": "STL/03_key_retainer.stl",
+      "quantity": 1,
+      "role": "enclosure_part"
+    },
+    "04_key_POWER": {
+      "step": "STEP/04_key_POWER.step",
+      "stl": "STL/04_key_POWER.stl",
+      "quantity": 1,
+      "role": "enclosure_part"
+    },
+    "05_key_RESET": {
+      "step": "STEP/05_key_RESET.step",
+      "stl": "STL/05_key_RESET.stl",
+      "quantity": 1,
+      "role": "enclosure_part"
+    },
+    "06_key_STOP": {
+      "step": "STEP/06_key_STOP.step",
+      "stl": "STL/06_key_STOP.stl",
+      "quantity": 1,
+      "role": "enclosure_part"
+    },
+    "07_key_RESUME": {
+      "step": "STEP/07_key_RESUME.step",
+      "stl": "STL/07_key_RESUME.stl",
+      "quantity": 1,
+      "role": "enclosure_part"
+    },
+    "08_lightpipe_PWR": {
+      "step": "STEP/08_lightpipe_PWR.step",
+      "stl": "STL/08_lightpipe_PWR.stl",
+      "quantity": 1,
+      "role": "enclosure_part"
+    },
+    "09_lightpipe_STATUS": {
+      "step": "STEP/09_lightpipe_STATUS.step",
+      "stl": "STL/09_lightpipe_STATUS.stl",
+      "quantity": 1,
+      "role": "enclosure_part"
+    },
+    "10_fit_coupon": {
+      "step": "STEP/10_fit_coupon.step",
+      "stl": "STL/10_fit_coupon.stl",
+      "quantity": 1,
+      "role": "fit_test"
+    },
+    "11_front_fit_template": {
+      "step": "STEP/11_front_fit_template.step",
+      "stl": "STL/11_front_fit_template.stl",
+      "quantity": 1,
+      "role": "fit_test"
+    }
+  },
+  "assembly_printed_part_count": 9,
+  "fit_test_part_count": 2,
+  "hardware": [
+    "4 x M3 male-female brass spacer, 16 mm body / nominal 6 mm male stud",
+    "15 x standard M3 hex nuts, AF5.5, thickness <=2.4: 11 lower shell, 4 side-loaded upper retainer",
+    "5 x M3x6 PCB fixing screw (4 core-region screws optional after clearance check)",
+    "6 x M3x5 ISO 7380-1 button-head screws: 2 screen, 4 key retainer; D3.4 clearance holes into captive hex nuts; no tapping",
+    "2 x M3x12 low button-head upper-left cover screw, head <= D5.8 x H1.8",
+    "2 x M3x30 low button-head CASE10/11 cover screw, head <= D5.8 x H1.8"
+  ],
+  "screw_totals": {
+    "M3x5": 6,
+    "M3x6": 5,
+    "M3x12": 2,
+    "M3x30": 2,
+    "total_screws": 15,
+    "thread": "M3x0.5 for all screws"
+  },
+  "no_tapping_required": true,
+  "nut_count": 15
+}

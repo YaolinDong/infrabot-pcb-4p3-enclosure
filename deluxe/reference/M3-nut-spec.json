@@ -1,0 +1,11 @@
+{
+  "part": "ordinary M3 hex nut",
+  "thread": "M3x0.5",
+  "maximum_width_across_flats_mm": 5.5,
+  "maximum_height_mm": 2.4,
+  "source": "https://eshop.wuerth.de/Hexagon-nut-ISO-4032-brass-plain-NUT-HEX-ISO4032-BRS-WS55-M3/030093.sku/en/US/EUR/",
+  "design_pocket_af_mm": 5.9,
+  "design_pocket_height_mm": 2.8,
+  "not_compatible": "tall nylon-insert locknut or heat-set insert",
+  "physical_fit": "test printed clearance first"
+}
